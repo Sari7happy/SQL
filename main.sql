@@ -1,3 +1,3 @@
 ALTER table test_db.test_table
-add column key2 varchar(20) not null,
-add column key3 varchar(20)not null;
+add COLUMN key4 varchar(20) after  key2;
+-- key2の後にkey4をしたい時の処理
