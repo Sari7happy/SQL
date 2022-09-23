@@ -1,1 +1,1 @@
-create database test_db;
+drop table test_db.test_table;
