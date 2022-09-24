@@ -1,3 +1,5 @@
-ALTER table test_db.test_table
-add COLUMN key4 varchar(20) after  key2;
--- key2の後にkey4をしたい時の処理
+create table products(
+ id int(10)unsigned AUTO_INCREMENT PRIMARY key,  
+--  primary keyはnot null含まないので入力不要
+ name varchar (20) not null
+);
