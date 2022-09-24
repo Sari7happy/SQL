@@ -1,8 +1,5 @@
-ALTER table test_db.test_table
-modify  COLUMN key1 int(11) not null;
-
--- auto incrementを削除してからキーを消す。
-
-
-ALTER table test_db.test_table
-drop primary key;
+create table products(
+ id int(10)unsigned AUTO_INCREMENT PRIMARY key,  
+--  primary keyはnot null含まないので入力不要
+ name varchar (20) not null
+);
